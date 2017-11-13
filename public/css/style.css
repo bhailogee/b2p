@@ -1,0 +1,1044 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+@font-face {
+    font-family:'Ainslie Norm Regular';
+    src: url('fonts/Ainslie-NorReg.eot');
+	 src: url('fonts/AinslieNormRegular.ttf');
+	src: url('fonts/Ainslie-NorReg.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Ainslie-NorReg.woff2') format('woff2'),
+		url('fonts/Ainslie-NorReg.woff') format('woff'),
+		url('fonts/Ainslie-NorReg.svg#Ainslie-NorReg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+@font-face {
+    font-family:'MyriadPro-Regular';
+    src: url('fonts/MyriadPro-Regular.eot');
+	src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/MyriadPro-Regular.woff') format('woff'),
+		url('fonts/MyriadPro-Regular.svg#Ainslie-NorReg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+body
+{
+	font-family: 'Ainslie Norm Regular';
+	background-color:#f9f5f5;
+}
+.main_section
+{
+	background:url(../images/main_bg_01.jpg) no-repeat;
+	background-size:100%;
+	background-position:center;
+	height:auto;
+	overflow:hidden;
+	width:100%;
+}
+#header
+{
+	width:100%;
+	padding:10px 0px;
+	height:auto;
+	overflow:hidden;
+}
+#header .login {
+    text-align: right;
+}
+#header .login a
+{
+	outline:none;
+}
+#header .login button
+{
+    padding: 8px 20px;
+    color: #4bc3dc;
+    border: solid 1px #4bc3dc;
+    background-color: transparent;
+    border-radius: 28px;
+    margin-top: 22px;
+	outline:none;
+}
+#header .login button a
+{
+	color:#4bc3dc;
+	text-decoration:none;
+}
+#banner
+{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+#banner img
+{
+	position:relative;
+    width: 57%;
+	margin:auto;
+}
+small.range_d {
+    position: absolute;
+    color: red;
+    top: 27%;
+    left: 20%;
+}
+small.range_d .fa
+{
+	font-size:20px;
+}
+small.range_u {
+    position: absolute;
+    float: right;
+    top: 27%;
+    color: green;
+    right: 20%;
+}
+small.range_u .fa
+{
+	font-size:20px;
+}
+#banner .banner_content
+{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding:0px;
+	margin:auto;
+}
+#banner .inner_banner
+{
+    height: auto;
+    overflow: hidden;
+	text-align:center;
+    margin-top: 90px;
+	padding:0px 175px;
+}
+#banner .inner_banner h3
+{
+	color:#5da9b9;
+	font-weight:200;
+}
+#banner .inner_banner h1
+{
+	color:#4bc3dc;
+	font-weight:600;
+	font-family:'Ainslie Norm Regular';
+}
+.inner_range
+{
+	width:75%;
+	margin:auto;
+    padding: 20px 0px 0px;
+    margin-bottom: 77px;
+}
+.inner_range .range_left
+{
+	border:solid 3px #e10519;
+	padding:10px 25px;
+	font-size:32px;
+	border-radius:50px;
+	color:#c32c38;
+	font-weight:700;
+	-moz-box-shadow:    inset 0 0 20px #e10519;
+   -webkit-box-shadow: inset 0 0 20px #e10519;
+   box-shadow:         inset 0 0 20px #e10519;
+}
+.inner_range .range_left small
+{
+	font-size:12px;
+	color:#b78189;
+	font-weight:600;
+}
+
+.inner_range .range_right
+{
+	border:solid 3px #0d9c52;
+	padding:10px 25px;
+	font-size:32px;
+	border-radius:50px;
+	color:#369d61;
+	font-weight:700;
+	-moz-box-shadow:    inset 0 0 20px #0d9c52;
+   -webkit-box-shadow: inset 0 0 20px #0d9c52;
+   box-shadow:         inset 0 0 20px #0d9c52;
+}
+.inner_range .range_right small
+{
+	font-size:12px;
+	color:#96f0bb;
+	font-weight:600;
+}
+.inner_range p
+{
+	font-size:14px;
+	color:#bfd4dd;
+	padding-top:10px;
+}
+.inner_range .status_text
+{
+	font-size:16px;
+	color:#fff;
+	padding-top:20px;
+}
+.top_right_range
+{
+	text-align:right;
+	color:#96f0bb;
+	font-size:14px;
+}
+.top_left_range
+{
+	text-align:left;
+	color:#de1515;
+	font-size:14px;
+}
+.bottom_banner
+{
+	bottom:-100px;
+}
+.bottom_range_left {
+    background-color: #000;
+    border-radius: 20px 0px 0px 20px;
+}
+.bottom_range_left p
+{
+	font-size:12px;
+}
+.service_sec
+{
+	text-align:center;
+	padding:50px 0px;
+	background-color:#f9f5f5;
+}
+.service_sec h1
+{
+	text-align:center;
+	font-weight:700;
+	padding-bottom:50px;	
+}
+.service_sec h4
+{
+	font-size:18px;
+	padding:10px 14px;
+}
+.sell_top
+{
+	text-align:center;
+	padding:30px 0px;
+	background-color:#04252c;
+	color:#fff;
+}
+.sell_top .section_sell
+{
+	width:52%;
+	margin:auto;
+	height:auto;
+	overflow:hidden;
+	font-family:'Ainslie Norm Regular';
+	padding:20px 0px;
+	font-size:36px;
+}
+.sell_top .dropdown-menu
+{
+	min-width: 100px;
+
+}
+.sell_top .drop_btn
+{
+    background-color: #4bc3dc;
+    color: #04252c;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 0px;
+	outline:none;
+}
+.sell_top p
+{
+	color:#4bc3dc;
+}
+.sell_top .dropdown
+{
+	float:left;
+	width:100px;
+}
+.form_section
+{
+	background-color:#031d22;
+	padding:50px 0px;
+	width:100%;
+	height:auto;
+}
+.form_section label {
+    color: #fff;
+    text-align: right;
+    font-size: 14px;
+	margin-top: 5px;
+}
+.form_section input
+{
+	padding: 12px 15px;
+	border-radius: 50px;
+	border: 0px;
+	background-color: #f9f5f5;
+	color: #000;
+	outline:none;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #6ea1c4;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #6ea1c4;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #6ea1c4;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #6ea1c4;
+  opacity: 1;
+}
+form_section p {
+    text-align: center;
+    font-size: 18px;
+    color: #ff6a41;
+}
+.form_section .submit_btn
+{
+	background-color:#ff6a41;
+	color:#04252c;
+	font-weight:600;
+	font-size:20px;
+	padding:10px 30px;
+	text-align:center;
+	margin:auto;
+}
+.form_button
+{
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+}
+.box-body
+{
+	background-color:#f9f5f5;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding:30px 0px;
+}
+.chart
+{
+	background-color:#fff;
+	padding:30px 10px;
+}
+.ex_rates
+{
+	float:left;
+	margin-right:10px;
+}
+.ex_rates img {
+    float: left;
+	    margin-right: 10px;
+    margin-top: 3px;
+}
+.chart_btn
+{
+	background-color:transparent;
+	border:none;
+	float:right;
+}
+.chart_btn select
+{
+	border:none;
+	outline:none;
+}
+.footer_add
+{
+	width:100%;
+	padding-bottom:20px;
+}
+.footer_add img
+{
+	margin:auto;
+}
+#footer
+{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	background-color:#04252c;
+}
+#footer .copyright
+{
+	color:#fff;
+	margin-top:10px;
+	padding:30px 0px;
+	text-align:center;
+}
+.social_ico .fa {
+   font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #8492af;
+    padding: 36px 0px;
+}
+
+.social_ico .fa:hover {
+    opacity: 0.7;
+}
+ 
+@media only screen and (max-width: 1920px){ 
+#header .login
+{
+	margin-right:100px;
+}
+   
+  .main_section
+  {
+	  height:1105px;
+	  background:url(../images/main_image_01.png) no-repeat;
+	  background-position: top;
+background-size: 100%;
+  }
+  
+  #banner .inner_banner
+{
+    height: auto;
+    overflow: hidden;
+	text-align:center;
+	padding:0px;
+	margin-top:0px;
+}
+#banner .inner_banner h1
+{
+	font-size:54px;
+	padding-bottom:50px;
+	font-family:'Ainslie Norm Regular';
+}
+.inner_range
+{
+	width:100%;
+	padding: 0px 86px;
+}
+.price_range
+{
+	font-size:18px;
+	color:#bfd4dd;
+}
+.inner_range .range_left
+{
+	font-size:60px;
+	background-color:transparent;
+}
+.inner_range .range_right
+{
+	font-size:60px;
+	background-color:transparent;
+}
+.default_button input {
+    width: 330px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    outline: none;
+	font-size: 65px;
+background-color: transparent;
+}
+.range_left input {
+    width: 330px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.inner_range .status_text
+{
+	font-size:20px;
+	color:#dc6a4b;
+	margin-top:40px;
+}
+.range_right input {
+    width: 400px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.logo
+{
+	padding-bottom:70px;
+}
+  #header
+{
+	width:100%;
+	padding:20px 0px 0px;
+	height:auto;
+	overflow:hidden;
+}
+.inner_header
+{
+	width:1920px;
+}
+#banner .inner_banner h3
+{
+	font-size:36px;
+}
+.add_place
+{
+	margin-top:120px;
+}
+.default_button
+{
+	
+padding: 0px 34px;
+font-size: 65px;
+border-radius: 75px;
+
+font-weight: 700;
+
+}
+.blue_btn
+{
+	border: solid 3px #5c829c;
+	-moz-box-shadow: inset 0 0 20px #6ea1c4;
+-webkit-box-shadow: inset 0 0 20px #6ea1c4;
+box-shadow: inset 0 0 20px #6ea1c4;
+color: #6ea1c4;
+}
+.red_btn
+{
+	border: solid 3px #e10519;
+	color: #c32c38;
+    -moz-box-shadow: inset 0 0 20px #c32c38;
+    -webkit-box-shadow: inset 0 0 20px #c32c38;
+    box-shadow: inset 0 0 20px #c32c38;
+}
+.green_btn
+{
+	    border: solid 3px #0d9c52;
+    color: #369d61;
+    -moz-box-shadow: inset 0 0 20px #0d9c52;
+    -webkit-box-shadow: inset 0 0 20px #0d9c52;
+    box-shadow: inset 0 0 20px #0d9c52;
+}
+.inner_range .default_button small {
+    font-size:12px;
+	color:#6ea1c4;
+	font-weight:600;
+}
+.service_sec h1
+{
+	padding-bottom:12px;
+}
+.sell_top .drop_btn select
+{
+	background-color:#4bc3dc;
+	border:0px;
+	outline:none;
+}
+.sell_top .section_sell
+{
+	width:65%;
+	font-size:48px;
+}
+.drop_btn
+{
+	float:left;
+	margin:10px 10px 0px;
+}
+.sell_top p {
+    color: #4bc3dc;
+    font-size: 30px;
+}
+.form_section p
+{
+	font-size:20px;
+	    text-align: center;
+    color: #ff6a41;
+}
+}
+@media only screen and (max-width: 1850px) {
+	.inner_header {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 1700px) {
+	.main_section
+	{
+		height:980px;
+	}
+}
+@media only screen and (max-width: 1650px) {
+	.inner_header {
+    width: 100%;
+	}
+	.main_section {
+    height: 950px;
+    background: url(../images/main_image_01.png) no-repeat;
+    background-position: top;
+    background-size: 100%;
+	}
+	.default_button
+	{
+		font-size: 70px;
+	}
+	.default_button input
+	{
+		width:300px;
+		font-size: 70px;
+	}
+	.inner_range
+	{
+		padding:20px 0px 0px;
+	}
+	#banner .inner_banner h1
+	{
+		font-size:50px;
+		font-family:'Ainslie Norm Regular';
+	}
+	
+}
+@media only screen and (max-width: 1550px) {
+	.main_section
+	{
+		height:890px;
+	}
+	#banner .inner_banner h1
+	{
+		font-size:40px;
+		padding-bottom:10px;
+		font-family:'Ainslie Norm Regular';
+	}
+	#banner .inner_banner h3
+	{
+		font-size:34px;
+	}
+	.default_button 
+	{
+    	font-size: 70px;
+	}
+	.default_button input 
+	{
+    	width: 300px;
+    	font-size: 70px;
+	}
+	.inner_range .status_text
+	{
+		margin-top:28px;
+	}
+}
+@media only screen and (max-width: 1450px) {
+	.logo 
+	{
+    	padding-bottom: 20px;
+	}
+	#banner .inner_banner h3 
+	{
+    	font-size: 32px;
+	}
+	.default_button input 
+	{
+    	width: 250px;
+    	font-size: 50px;
+	}
+	.default_button 
+	{
+    	font-size: 45px;
+	}
+	.main_section 
+	{
+    	height: 834px;
+	}
+	.top_left_range
+	{
+		font-size:12px;
+	}
+	.top_right_range
+	{
+		font-size:12px;
+	}
+	.inner_range .status_text 
+	{
+    	margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 1400px) {
+	.main_section 
+	{
+    	height: 780px;
+	}
+	.sell_top .section_sell 
+	{
+    	width: 58%;
+    	font-size: 41px;
+	}
+}
+@media only screen and (max-width: 1280px) {
+    #header
+	{
+		background-color:transparent;
+	}
+	.main_section 
+	{
+    	height: 720px;
+	}
+}
+@media only screen and (max-width: 1200px) {
+    #banner .inner_banner
+	{
+		padding:0px;
+	}
+	#banner img 
+	{
+    	position: relative;
+    	width: 25%;
+	}
+	#banner .inner_banner
+	{
+		margin-top:0px;
+	}
+	.default_button 
+	{
+    	font-size: 40px;
+	}
+	.default_button input 
+	{
+    	width: 174px;
+    	font-size: 42px;
+	}
+	.inner_range .status_text 
+	{
+    	margin-top: 12px;
+    	font-size: 14px;
+	}
+	.main_section 
+	{
+    	height: 690px;
+	}
+}
+@media only screen and (max-width: 1150px) {
+    .sell_top .section_sell 
+	{
+    	width: 60%;
+	}
+	 #header
+	{
+		background-color:transparent;
+	}
+	#banner .inner_banner h3 
+	{
+    	font-size: 20px;
+	}
+	#banner .inner_banner h1 {
+    	font-size: 26px;
+		font-family:'Ainslie Norm Regular';
+	}
+	.main_section {
+    		height: 662px;
+	}
+	.sell_top .section_sell {
+    	width: 70%;
+	}
+@media only screen and (max-width: 1050px) {
+	#banner .inner_banner {
+    margin-top: 0px;
+	}
+	.logo {
+    	padding-bottom: 20px;
+    	margin-top: 0px;
+	}
+	#header .login {
+    	text-align: right;
+    	position: absolute;
+    	z-index: 9999;
+	}
+	.main_section {
+    	height: 605px;
+	}
+	.service_sec h1 
+	{
+       	font-size: 26px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+    #header
+	{
+		background-color:transparent;
+	}
+	.main_section {
+    	height: 592px;
+	}
+	.service_sec
+	{
+		padding:15px 0px;
+	}
+}
+@media only screen and (max-width: 980px) {
+	.sell_top .section_sell
+	{
+    	width: 92%;
+	}
+	.form_section label {
+    text-align: left;
+	}
+	#header .login button
+	{
+		margin-top: 8px;
+	}
+	.logo img {
+    	width: 22%;
+	}
+	.add_place {
+    	margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 850px) {
+	.default_button {
+    	font-size: 35px;
+	}
+	.default_button input {
+    	width: 158px;
+    	font-size: 37px;
+	}
+	.main_section {
+    	height: 490px;
+	}
+}
+@media only screen and (max-width: 750px) {
+	.main_section {
+		height: 445px;
+    background:url(../images/main_bg_01.jpg) no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+	
+	#banner .inner_banner h1
+	{
+		font-size:20px;
+		font-family:'Ainslie Norm Regular';
+	}
+	.inner_range
+	{
+		padding: 14px 15px 0px;
+	}
+	.inner_range .range_left
+	{
+		font-size:15px;
+	}
+	.inner_range .range_left small
+	{
+		font-size:7px;
+	}
+	.inner_range .range_right
+	{
+		font-size:15px;
+	}
+	.inner_range .range_right small
+	{
+		font-size:6px;
+	}
+	.sell_top .section_sell {
+    	width: 100%;
+		font-size:28px;
+	}
+	.sell_top p
+	{
+		float:left;
+	}
+	.form_section p {
+    font-size: 18px;
+}
+@media only screen and (max-width: 650px) {
+	.bottom_banner
+	{
+		display:none;
+	}
+	.sell_top .section_sell {
+    width: 100%;
+font-size: 28px;}
+	.service_sec h1
+	{
+		font-size:24px;
+		padding-bottom:0px;
+	}
+	.form_section p {
+    font-size: 12px;
+}
+}	
+@media only screen and (max-width: 630px) {
+.default_button input {
+    width: 120px;
+    font-size: 24px;
+}
+.default_button {
+    font-size: 24px;
+}
+.inner_range .default_button small {
+    font-size: 8px;
+}
+.main_section {
+
+    height: 345px;
+}
+.form_section p {
+    font-size: 12px;
+}
+.drop_btn
+{
+	margin-top:0px;
+}
+.sell_top .drop_btn
+{
+	padding:4px 16px;
+}
+.logo img {
+    width: 36%;
+}
+.sell_top .section_sell
+{
+	font-size:20px;
+}
+.sell_top p
+{
+	font-size:18px;
+}
+.inner_range {
+    padding: 14px 40px 0px;
+}
+}
+	@media only screen and (max-width: 580px) {
+	.inner_range .status_text
+	{
+		font-size:10px;
+	}
+	.sell_top .section_sell {
+    width: 76%;
+    font-size: 24px;
+}
+.sell_top p
+{
+	float:left;
+}
+.sell_top .section_sell {
+    width: 100%;
+    font-size: 20px;
+}
+.default_button
+{
+	padding:0px 10px;
+}
+#header .login button {
+    margin-top: -10px;
+}
+	@media only screen and (max-width: 550px) {
+	.inner_range .status_text
+	{
+		font-size:10px;
+	}
+	.sell_top .section_sell {
+    width: 76%;
+    font-size: 24px;
+}
+.sell_top p
+{
+	float:left;
+}
+.sell_top .section_sell {
+    width: 100%;
+    font-size: 20px;
+}
+.default_button
+{
+	padding:0px 10px;
+}
+#header .login button {
+    margin-top: -10px;
+}
+}
+@media only screen and (max-width: 480px) {
+	#banner .banner_content
+	{
+		background-color: #05242e;
+	}
+	.logo img {
+    width: 50%;
+    float: left;
+}
+	.inner_range .pull-left {
+    width: 100%;
+	}
+	.inner_range .pull-right {
+    width: 100%;
+	margin-top:20px;
+	}
+	.inner_range .status_text {
+    font-size: 18px;
+	}
+	.form_section p
+	{
+		font-size:12px;
+	}
+	#header {
+    background-color: #05242e;
+	}
+	.main_section {
+    height: 525px;
+	}
+	.inner_range
+	{
+		margin-bottom:0px;
+	}
+	.default_button input {
+    	width: 200px;
+	}
+	.top_left_range
+	{
+		text-align:center;
+	}
+	.top_right_range
+	{
+		text-align:center;
+	}
+	.inner_range p
+	{
+		padding-top:0px;
+	}
+	.inner_range .status_text {
+    margin-top: 0px;
+	}
+	.sell_top p {
+       	font-size: 20px;
+	}
+	#banner .inner_banner h3 {
+    font-size: 16px;
+}
+#banner .inner_banner h1 {
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 350px) {
+.default_button input {
+    width: 150px;
+}
+#banner .inner_banner h3 {
+    font-size: 12px;
+}
+#banner .inner_banner h1 {
+    font-size: 14px;
+}
+.sell_top p {
+    font-size: 17px;
+}
+.sell_top .section_sell {
+    width: 100%;
+    font-size: 14px;
+}
+}
