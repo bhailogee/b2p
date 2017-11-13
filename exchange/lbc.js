@@ -6,7 +6,7 @@ const Request = require('request');
 const config = require('config');
 const url = "https://localbitcoins.com/";
 const requestDefaultOptions = {json:true}
-const Q = require('Q');
+const Q = require('q');
 
 
 var resolve = function(q,options) {
