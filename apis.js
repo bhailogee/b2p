@@ -60,6 +60,7 @@ function lbcSell(req, res, next) {
   });
 }
 
+var latestRates;
 function lbcRate(req,res,next) {
   if (!!!req.params.currency) {
     throw "currency code required";
@@ -68,14 +69,13 @@ function lbcRate(req,res,next) {
     throw "invalid currency code";
   }
 
+  res.json(latestRates);
+
   return lbc.sell(req.params).then(function (resultSell) {
     return lbc.buy(req.params).then(function (resultBuy) {
-
-      var test = Object.assign({},utility.extractHighest(resultSell, req.params.currency),utility.extractLowest(resultBuy, req.params.currency));
-      res.json(test);
+      latestRates = Object.assign({}, utility.extractHighest(resultSell, req.params.currency), utility.extractLowest(resultBuy, req.params.currency));
     });
   });
-
 }
 
 module.exports  = router;
